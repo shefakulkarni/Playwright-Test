@@ -26,8 +26,9 @@ double(3.7);
  {
     setTimeout(()=>{
     console.log("This message is delayed by 2 seconds "+msg);
+     callBack();
     },2000)
-    callBack();
+   
  }
  function callBack()
  {
